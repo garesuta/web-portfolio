@@ -5,6 +5,7 @@ export const About = () => {
     "JavaScript",
     "React",
     "Vue",
+    "Angular",
     "Next.js",
     "Nuxt.js",
     "TailwindCSS",
@@ -12,8 +13,11 @@ export const About = () => {
   const backendSkills = [
     "Node.js",
     "Express.js",
+    "Nest.js",
     "Golang",
-    "RESTful API",
+    "REST API",
+    "GraphQL",
+    "Apollo",
     "gRPC",
   ];
   const databaseSkills = [
@@ -24,8 +28,15 @@ export const About = () => {
     "Firebase",
     "Supabase",
     "Prisma",
+    "Drizzle",
   ];
-  const devOpsSkills = ["Docker", "Github Actions", "Railway", "Vercel"];
+  const devOpsSkills = [
+    "Docker",
+    "Github Actions",
+    "Railway",
+    "Vercel",
+    "Azure",
+  ];
   const otherSkills = [
     "Postman",
     "Swagger",
@@ -95,7 +106,7 @@ export const About = () => {
                 </div>
               </div>
               <div className="rounded-xl hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Devops</h3>
+                <h3 className="text-xl font-bold mb-4">Devops & Cloud</h3>
                 <div className="flex flex-wrap gap-2">
                   {devOpsSkills.map((skill, index) => (
                     <span
